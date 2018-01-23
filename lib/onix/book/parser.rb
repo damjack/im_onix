@@ -1,14 +1,14 @@
 module Onix
   module Book
-    class Parser < Subset
+    class Parser
       attr_accessor :sender, :adressee, :sent_date_time,
                     :default_language_of_text, :default_currency_code,
                     :products,
                     :release
 
       def initialize
-        @products=[]
-        @vault={}
+        @products = []
+        @vault = {}
       end
 
       def vault
@@ -22,8 +22,8 @@ module Onix
       # merge another message in this one
       # current object erase other values
       def merge!(other)
-        @products+=other.products
-        @products=@products.uniq { |p| p.ean }
+        @products += other.products
+        @products = @products.uniq { |p| p.ean }
         init_vault
         self
       end
@@ -37,10 +37,10 @@ module Onix
 
       # initialize hash between ID and product object
       def init_vault
-        @vault={}
+        @vault = {}
         @products.each do |product|
           product.identifiers.each do |ident|
-            @vault[ident.uniq_id]=product
+            @vault[ident.uniq_id] = product
           end
         end
 
@@ -48,7 +48,7 @@ module Onix
           product.related.each do |rel|
             rel.identifiers.each do |ident|
               if @vault[ident.uniq_id]
-                rel.product=@vault[ident.uniq_id]
+                rel.product = @vault[ident.uniq_id]
               end
             end
           end
@@ -56,7 +56,7 @@ module Onix
           product.parts.each do |prt|
             prt.identifiers.each do |ident|
               if @vault[ident.uniq_id]
-                prt.product=@vault[ident.uniq_id]
+                prt.product = @vault[ident.uniq_id]
               end
             end
           end
@@ -81,53 +81,53 @@ module Onix
       # parse filename or file
       def parse(arg, force_encoding=nil, force_release=nil)
 
-        xml=open(arg, force_encoding)
+        xml = open(arg, force_encoding)
         @products=[]
 
         root = xml.root
         case root
-          when tag_match("ONIXMessage")
-            @release=root["release"]
+          when Onix::Book::Model::Subset.tag_match("ONIXMessage")
+            @release = root["release"]
             if force_release
-              @release=force_release.to_s
+              @release = force_release.to_s
             end
             root.elements.each do |e|
               case e
-                when tag_match("Header")
+                when Onix::Book::Model::Subset.tag_match("Header")
                   e.elements.each do |t|
                     case t
-                      when tag_match("Sender")
-                        @sender=Sender.parse(t)
-                      when tag_match("Addressee")
-                        @addressee=Addressee.parse(t)
-                      when tag_match("SentDateTime")
+                      when Onix::Book::Model::Subset.tag_match("Sender")
+                        @sender = Sender.parse(t)
+                      when Onix::Book::Model::Subset.tag_match("Addressee")
+                        @addressee = Addressee.parse(t)
+                      when Onix::Book::Model::Subset.tag_match("SentDateTime")
                         tm=t.text
-                        @sent_date_time=Time.strptime(tm, "%Y%m%dT%H%M%S") rescue Time.strptime(tm, "%Y%m%dT%H%M") rescue Time.strptime(tm, "%Y%m%d") rescue nil
-                      when tag_match("DefaultLanguageOfText")
-                        @default_language_of_text=LanguageCode.parse(t)
-                      when tag_match("DefaultCurrencyCode")
-                        @default_currency_code=t.text
+                        @sent_date_time = Time.strptime(tm, "%Y%m%dT%H%M%S") rescue Time.strptime(tm, "%Y%m%dT%H%M") rescue Time.strptime(tm, "%Y%m%d") rescue nil
+                      when Onix::Book::Model::Subset.tag_match("DefaultLanguageOfText")
+                        @default_language_of_text = LanguageCode.parse(t)
+                      when Onix::Book::Model::Subset.tag_match("DefaultCurrencyCode")
+                        @default_currency_code = t.text
                       else
                         unsupported(t)
                     end
                   end
-                when tag_match("Product")
-                  product=nil
+                when Onix::Book::Model::Subset.tag_match("Product")
+                  product = nil
                   if @release =~ /^3.0/
-                    product=Product.parse(e)
+                    product = Product.parse(e)
                   else
-                    product=Onix::Book::Onix21::Product.parse(e)
+                    product = Onix::Book::Onix21::Product.parse(e)
                   end
-                  product.default_language_of_text=@default_language_of_text
-                  product.default_currency_code=@default_currency_code
+                  product.default_language_of_text = @default_language_of_text
+                  product.default_currency_code = @default_currency_code
                   @products << product
               end
             end
 
-          when tag_match("Product")
-            product=Product.parse(xml.root)
-            product.default_language_of_text=@default_language_of_text
-            product.default_currency_code=@default_currency_code
+          when Onix::Book::Model::Subset.tag_match("Product")
+            product = Product.parse(xml.root)
+            product.default_language_of_text = @default_language_of_text
+            product.default_currency_code = @default_currency_code
             @products << product
         end
 

@@ -1,8 +1,10 @@
 require 'onix/book/product_supplies_extractor'
-require 'onix/book/subset'
-require 'onix/book/code'
-require 'onix/book/code_from_yaml'
-require 'onix/book/subset_dsl'
+require 'onix/book/model/subset'
+require 'onix/book/model/subset_dsl'
+require 'onix/book/model/code'
+require 'onix/book/model/code_from_yaml'
+require 'onix/book/model/code_from_yaml_with_mime'
+require 'onix/book/model/code_indents'
 
 module Onix
   module Book
@@ -19,7 +21,7 @@ module Onix
         end
       end
 
-      class SubsetDsl < SubsetDsl
+      class SubsetDsl < Onix::Book::Model::SubsetDsl
         def self.short_to_ref(name)
           Onix::Book::Onix21::ShortToRef.names[name]
         end
@@ -37,8 +39,7 @@ module Onix
       end
 
       # ONIX 2.1 codes
-
-      class CodeFromYaml < Code
+      class CodeFromYaml < Onix::Book::Model::Code
         def code_list_filename(number)
           File.join(code_lists21_path, "list_#{number.to_s.rjust(3,'0')}.yml")
         end
@@ -56,35 +57,35 @@ module Onix
         end
       end
 
-      class EpubType < CodeFromYaml
+      class EpubType < Onix::Book::Model::CodeFromYaml
         private
         def self.code_ident
           10
         end
       end
 
-      class TextTypeCode < CodeFromYaml
+      class TextTypeCode < Onix::Book::Model::CodeFromYaml
         private
         def self.code_ident
           33
         end
       end
 
-      class MediaFileTypeCode < CodeFromYaml
+      class MediaFileTypeCode < Onix::Book::Model::CodeFromYaml
         private
         def self.code_ident
           38
         end
       end
 
-      class MediaFileFormatCode < CodeFromYaml
+      class MediaFileFormatCode < Onix::Book::Model::CodeFromYaml
         private
         def self.code_ident
           36
         end
       end
 
-      class MediaFileLinkTypeCode < CodeFromYaml
+      class MediaFileLinkTypeCode < Onix::Book::Model::CodeFromYaml
         private
         def self.code_ident
           37
@@ -92,8 +93,7 @@ module Onix
       end
 
       # ONIX 2.1 subset
-
-      class Title < SubsetDsl
+      class Title < Onix::Book::Model::SubsetDsl
         element "TitleType", :subset
         element "TitleText", :text
         element "TitlePrefix", :text
@@ -110,7 +110,7 @@ module Onix
         end
       end
 
-      class OtherText < SubsetDsl
+      class OtherText < Onix::Book::Model::SubsetDsl
         element "TextTypeCode", :subset
         element "TextFormat", :text
         element "Text", :text
@@ -120,7 +120,7 @@ module Onix
         end
       end
 
-      class MediaFile < SubsetDsl
+      class MediaFile < Onix::Book::Model::SubsetDsl
         element "MediaFileTypeCode", :subset
         element "MediaFileFormatCode", :subset
         element "MediaFileLinkTypeCode", :subset
@@ -159,7 +159,7 @@ module Onix
         end
       end
 
-      class Price < SubsetDsl
+      class Price < Onix::Book::Model::SubsetDsl
         element "PriceTypeCode", :subset, :klass => "PriceType"
         element "PriceAmount", :float, {:lambda => lambda { |v| (v*100).round }}
         element "PriceQualifier", :subset
@@ -229,7 +229,7 @@ module Onix
         end
       end
 
-      class SupplyDetail < SubsetDsl
+      class SupplyDetail < Onix::Book::Model::SubsetDsl
         element "SupplierName", :text
         element "TelephoneNumber", :text
         element "SupplierRole", :text
@@ -252,7 +252,7 @@ module Onix
         end
       end
 
-      class SalesRights < SubsetDsl
+      class SalesRights < Onix::Book::Model::SubsetDsl
         element "SalesRightsType", :text
         element "RightsCountry", :text
 
@@ -265,7 +265,7 @@ module Onix
         end
       end
 
-      class NotForSale < SubsetDsl
+      class NotForSale < Onix::Book::Model::SubsetDsl
         element "RightsCountry", :text
 
         def territory
@@ -273,7 +273,7 @@ module Onix
         end
       end
 
-      class RelatedProduct < SubsetDsl
+      class RelatedProduct < Onix::Book::Model::SubsetDsl
         include EanMethods
         include ProprietaryIdMethods
 
@@ -292,7 +292,7 @@ module Onix
         end
       end
 
-      class MainSubject < SubsetDsl
+      class MainSubject < Onix::Book::Model::SubsetDsl
         element "SubjectCode", :text
         element "SubjectHeadingText", :text
         element "MainSubjectSchemeIdentifier", :subset, :klass=>"SubjectSchemeIdentifier"
@@ -321,7 +321,7 @@ module Onix
         end
       end
 
-      class Product < SubsetDsl
+      class Product < Onix::Book::Model::SubsetDsl
         include EanMethods
         include ProprietaryIdMethods
 

@@ -2,7 +2,6 @@ module Onix
   module Book
     module Tools
       module Path
-
         attr_writer :data_path
         attr_writer :code_lists_path
         attr_writer :code_lists21_path
