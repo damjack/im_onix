@@ -11,10 +11,8 @@ class HTMLCodelist
   private
   def self.parse_codelist(codelist)
     h={}
-#      puts "PARSE CODELIST #{codelist}"
     html=Nokogiri::HTML.parse(File.open(codelist))
     html.search("//tr").each do |tr|
-#        pp tr
       td_code=tr.at("./td[1]")
       td_human=tr.at("./td[2]")
       if td_code and td_human
@@ -39,7 +37,7 @@ files.sort.each do |file|
   codelist=file.gsub(/.*onix\-codelist\-(.*)\.htm/,'\1').to_i
   h=HTMLCodelist.parse_codelist(file)
 
-  File.open("data/codelists/codelist-#{codelist}.yml",'w') do |fw| fw.write({:codelist=>h}.to_yaml) end
+  File.open("data/codelists/list_#{codelist}.yml",'w') do |fw| fw.write({:codelist=>h}.to_yaml) end
 
 end
 
