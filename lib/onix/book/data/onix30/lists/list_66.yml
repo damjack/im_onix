@@ -1,6 +1,0 @@
----
-:codelist:
-  N: NoNotReturnable
-  Y: YesReturnableFullCopiesOnly
-  S: YesReturnableStrippedCover
-  C: Conditional
