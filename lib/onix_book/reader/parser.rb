@@ -6,6 +6,7 @@ module OnixBook
       attr_accessor :header, :products, :release
 
       def initialize
+        @release = "2.1"
         @products = []
         @vault = {}
       end

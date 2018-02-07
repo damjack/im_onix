@@ -4,7 +4,7 @@ require 'rspec'
 
 Bundler.require
 
-require 'onix'
+require 'onix_book'
 
 Dir[File.join(File.dirname(__FILE__),"support/**/*.rb")].each { |f| require f }
 

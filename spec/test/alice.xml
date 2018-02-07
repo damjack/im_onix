@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage>
+	<Header>
+		<FromCompany>Informazioni Editoriali I.E. s.p.a.</FromCompany>
+		<ToCompany>Bookrepublic</ToCompany>
+		<SentDate>201712010309</SentDate>
+		<DefaultPriceTypeCode>04</DefaultPriceTypeCode>
+		<DefaultCurrencyCode>EUR</DefaultCurrencyCode>
+	</Header>
+	<Product>
+		<RecordReference>www.ie-online.itA272901</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780714846873</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780714846873</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>206138-WCG</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Wallpaper. City Guide</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>London</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>eng</LanguageCode>
+		</Language>
+		<NumberOfPages>103</NumberOfPages>
+		<PagesArabic>103</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Londra-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DBKESL</SubjectCode>
+			<SubjectHeadingText>Londra, grande Londra</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G2</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Europa</SubjectHeadingText>
+		</Subject>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/846/9780714846873g.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/846/9780714846873p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<ImprintName>Phaidon</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<PublisherName>Phaidon</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2006</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Phaidon</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>8,95</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA273109</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780714846934</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780714846934</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>206138-WCG</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Wallpaper. City Guide</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Paris</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>eng</LanguageCode>
+		</Language>
+		<NumberOfPages>103</NumberOfPages>
+		<PagesArabic>103</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Parigi-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DDF</SubjectCode>
+			<SubjectHeadingText>Francia</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G2</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Europa</SubjectHeadingText>
+		</Subject>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/846/9780714846934g.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/846/9780714846934p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<ImprintName>Phaidon</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<PublisherName>Phaidon</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2006</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Phaidon</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20060101</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>8,95</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA330270</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780714847245</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780714847245</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>206138-WCG</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Wallpaper. City Guide</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Lisbon</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>eng</LanguageCode>
+		</Language>
+		<NumberOfPages>103</NumberOfPages>
+		<PagesArabic>103</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Lisbona-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DSP</SubjectCode>
+			<SubjectHeadingText>Portogallo</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G2</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Europa</SubjectHeadingText>
+		</Subject>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/847/9780714847245g.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/847/9780714847245p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<ImprintName>Phaidon</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<PublisherName>Phaidon</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2007</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Phaidon</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20070101</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>8,95</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA1095061</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780714849102</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780714849102</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>206138-WCG</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Wallpaper. City Guide</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Florence</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>eng</LanguageCode>
+		</Language>
+		<NumberOfPages>103</NumberOfPages>
+		<PagesArabic>103</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Firenze-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DSTTNA</SubjectCode>
+			<SubjectHeadingText>Firenze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G1</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Italia</SubjectHeadingText>
+		</Subject>
+		<OtherText>
+			<TextTypeCode>12</TextTypeCode>
+			<TextFormat>06</TextFormat>
+			<Text>Le Wallpaper City Guides sono il risultato di una nuova concezione nel settore delle guide di viaggio, pubblicate congiuntamente dalla casa editrice Phaidon e dalla rivista Wallpaper. Accattivanti, complete ed economiche le guide offrono una descrizione delle pi&#249; importanti metropoli mondiali. Perfette per una breve gita del week-end o per un viaggio d&apos;affari, pur nella loro essenziale forma tascabile le nuove guide Wallpaper contengono tutte le informazioni indispensabili al visitatore, e in pi&#249; suggeriscono un itinerario originale e privilegiato per non lasciarsi sfuggire tutto ci&#242; che caratterizza e rende unica ogni citt&#224;. Peculiarit&#224; delle guide Wallpaper &#232;, inoltre, lo speciale contributo offerto da un abitante della citt&#224; che, in veste di cicerone, conduce il visitatore alla scoperta dei suoi luoghi preferiti e condivide con lui informazioni informali e originali. Per semplificare l&apos;orientamento durante la visita, ogni guida include mappe e fotografie aeree; sono state inoltre aggiunte alcune pagine bianche per appuntare scoperte personali ed eventuali consigli. Ogni sezione &#232; evidenziata con colori diversi per agevolare la ricerca delle informazioni.</Text>
+		</OtherText>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/849/9780714849102g.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/849/9780714849102p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<ImprintName>Phaidon</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<PublisherName>Phaidon</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2010</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Phaidon</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20091119</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>8,95</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA1163351</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780714856414</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780714856414</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>206138-WCG</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Wallpaper. City Guide</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Paris</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>eng</LanguageCode>
+		</Language>
+		<NumberOfPages>103</NumberOfPages>
+		<PagesArabic>103</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Parigi-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DDF</SubjectCode>
+			<SubjectHeadingText>Francia</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G2</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Europa</SubjectHeadingText>
+		</Subject>
+		<OtherText>
+			<TextTypeCode>12</TextTypeCode>
+			<TextFormat>06</TextFormat>
+			<Text>Le Wallpaper City Guides sono il risultato di una nuova concezione nel settore delle guide di viaggio, pubblicate congiuntamente dalla casa editrice Phaidon e dalla rivista Wallpaper. Accattivanti, complete ed economiche le guide offrono una descrizione delle pi&#249; importanti metropoli mondiali. Perfette per una breve gita del week-end o per un viaggio d&apos;affari, pur nella loro essenziale forma tascabile le nuove guide Wallpaper contengono tutte le informazioni indispensabili al visitatore, e in pi&#249; suggeriscono un itinerario originale e privilegiato per non lasciarsi sfuggire tutto ci&#242; che caratterizza e rende unica ogni citt&#224;. Peculiarit&#224; delle guide Wallpaper &#232;, inoltre, lo speciale contributo offerto da un abitante della citt&#224; che, in veste di cicerone, conduce il visitatore alla scoperta dei suoi luoghi preferiti e condivide con lui informazioni informali e originali. Per semplificare l&apos;orientamento durante la visita, ogni guida include mappe e fotografie aeree; sono state inoltre aggiunte alcune pagine bianche per appuntare scoperte personali ed eventuali consigli. Ogni sezione &#232; evidenziata con colori diversi per agevolare la ricerca delle informazioni.</Text>
+		</OtherText>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/856/9780714856414g.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/856/9780714856414p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<ImprintName>Phaidon</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<PublisherName>Phaidon</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2010</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Phaidon</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20100408</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>8,95</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA1205795</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780714859392</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780714859392</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>206138-WCG</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Wallpaper. City Guide</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Paris</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>eng</LanguageCode>
+		</Language>
+		<NumberOfPages>103</NumberOfPages>
+		<PagesArabic>103</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Parigi-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DDF</SubjectCode>
+			<SubjectHeadingText>Francia</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G2</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Europa</SubjectHeadingText>
+		</Subject>
+		<OtherText>
+			<TextTypeCode>12</TextTypeCode>
+			<TextFormat>06</TextFormat>
+			<Text>Le Wallpaper City Guides sono il risultato di una nuova concezione nel settore delle guide di viaggio, pubblicate congiuntamente dalla casa editrice Phaidon e dalla rivista Wallpaper. Accattivanti, complete ed economiche le guide offrono una descrizione delle pi&#249; importanti metropoli mondiali. Perfette per una breve gita del week-end o per un viaggio d&apos;affari, pur nella loro essenziale forma tascabile le nuove guide Wallpaper contengono tutte le informazioni indispensabili al visitatore, e in pi&#249; suggeriscono un itinerario originale e privilegiato per non lasciarsi sfuggire tutto ci&#242; che caratterizza e rende unica ogni citt&#224;. Peculiarit&#224; delle guide Wallpaper &#232;, inoltre, lo speciale contributo offerto da un abitante della citt&#224; che, in veste di cicerone, conduce il visitatore alla scoperta dei suoi luoghi preferiti e condivide con lui informazioni informali e originali. Per semplificare l&apos;orientamento durante la visita, ogni guida include mappe e fotografie aeree; sono state inoltre aggiunte alcune pagine bianche per appuntare scoperte personali ed eventuali consigli. Ogni sezione &#232; evidenziata con colori diversi per agevolare la ricerca delle informazioni.</Text>
+		</OtherText>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/859/9780714859392g.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/859/9780714859392p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<ImprintName>Phaidon</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<PublisherName>Phaidon</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2010</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Phaidon</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20110127</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>8,95</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA1205798</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780714859415</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780714859415</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>206138-WCG</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Wallpaper. City Guide</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>London</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>eng</LanguageCode>
+		</Language>
+		<NumberOfPages>103</NumberOfPages>
+		<PagesArabic>103</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Londra-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DBKESL</SubjectCode>
+			<SubjectHeadingText>Londra, grande Londra</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G2</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Europa</SubjectHeadingText>
+		</Subject>
+		<OtherText>
+			<TextTypeCode>12</TextTypeCode>
+			<TextFormat>06</TextFormat>
+			<Text>Le Wallpaper City Guides sono il risultato di una nuova concezione nel settore delle guide di viaggio, pubblicate congiuntamente dalla casa editrice Phaidon e dalla rivista Wallpaper. Accattivanti, complete ed economiche le guide offrono una descrizione delle pi&#249; importanti metropoli mondiali. Perfette per una breve gita del week-end o per un viaggio d&apos;affari, pur nella loro essenziale forma tascabile le nuove guide Wallpaper contengono tutte le informazioni indispensabili al visitatore, e in pi&#249; suggeriscono un itinerario originale e privilegiato per non lasciarsi sfuggire tutto ci&#242; che caratterizza e rende unica ogni citt&#224;. Peculiarit&#224; delle guide Wallpaper &#232;, inoltre, lo speciale contributo offerto da un abitante della citt&#224; che, in veste di cicerone, conduce il visitatore alla scoperta dei suoi luoghi preferiti e condivide con lui informazioni informali e originali. Per semplificare l&apos;orientamento durante la visita, ogni guida include mappe e fotografie aeree; sono state inoltre aggiunte alcune pagine bianche per appuntare scoperte personali ed eventuali consigli. Ogni sezione &#232; evidenziata con colori diversi per agevolare la ricerca delle informazioni.</Text>
+		</OtherText>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/859/9780714859415g.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/859/9780714859415p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<ImprintName>Phaidon</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<PublisherName>Phaidon</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2010</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Phaidon</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20110127</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>8,95</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA1689714</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9781945150111</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9781945150111</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BB</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Treacherous Transparencies. Thoughts and observations triggered by a visit to Farnsworth House</TitleText>
+		</Title>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Jacques Herzog</PersonName>
+			<PersonNameInverted>Herzog, Jacques</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Pierre de Meuron</PersonName>
+			<PersonNameInverted>Meuron, Pierre de</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>eng</LanguageCode>
+		</Language>
+		<NumberOfPages>96</NumberOfPages>
+		<PagesArabic>96</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>720</SubjectCode>
+			<SubjectHeadingText>ARCHITETTURA</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>AMD</SubjectCode>
+			<SubjectHeadingText>Architettura: pratica professionale</SubjectHeadingText>
+		</Subject>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>219362</NameCodeValue>
+			<ImprintName>Actar</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>219362</NameCodeValue>
+			<PublisherName>Actar</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2016</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Actar</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>22,00</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5175909</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9782067206922</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9782067206922</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BA</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Corse</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>fre</LanguageCode>
+		</Language>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Corsica-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DDFC</SubjectCode>
+			<SubjectHeadingText>Corsica</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G2</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Europa</SubjectHeadingText>
+		</Subject>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>200596</NameCodeValue>
+			<ImprintName>Michelin Italiana</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>200596</NameCodeValue>
+			<PublisherName>Michelin Italiana</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Michelin Italiana</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>19,50</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5175911</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9782067206977</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9782067206977</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BA</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>C&#244;te d&apos;Azur, Monaco</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>fre</LanguageCode>
+		</Language>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Costa Azzurra-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Monaco, principato di</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DDF</SubjectCode>
+			<SubjectHeadingText>Francia</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G2</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Europa</SubjectHeadingText>
+		</Subject>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>200596</NameCodeValue>
+			<ImprintName>Michelin Italiana</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>200596</NameCodeValue>
+			<PublisherName>Michelin Italiana</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Michelin Italiana</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>19,50</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5334355</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9782700507959</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9782700507959</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BA</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>200965-SS</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Senza sforzo</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>El Italiano</TitleText>
+			<TitlePrefix>El</TitlePrefix>
+			<TitleWithoutPrefix>Italiano</TitleWithoutPrefix>
+		</Title>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Anne-Marie Olivieri</PersonName>
+			<PersonNameInverted>Olivieri, Anne-Marie</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>B. Cabal</PersonName>
+			<PersonNameInverted>Cabal, B.</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>450</SubjectCode>
+			<SubjectHeadingText>LINGUA ITALIANA, LINGUE LADINE</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Lingua italiana per stranieri</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>CJBT</SubjectCode>
+			<SubjectHeadingText>Testi per l'autoapprendimento delle lingue</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>55</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>2ADT</SubjectCode>
+			<SubjectHeadingText>Italiano</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>MA</SubjectCode>
+			<SubjectHeadingText>Manuali</SubjectHeadingText>
+		</Subject>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>200965</NameCodeValue>
+			<ImprintName>Assimil Italia</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>200965</NameCodeValue>
+			<PublisherName>Assimil Italia</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Assimil Italia</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>24,90</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA1620586</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9782889350513</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9782889350513</IDValue>
+		</ProductIdentifier>
+		<ProductForm>WW</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Kit origami. 40 colori arcobaleno</TitleText>
+		</Title>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Nick Robinson</PersonName>
+			<PersonNameInverted>Robinson, Nick</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>B06</ContributorRole>
+			<PersonName>G. Gregori</PersonName>
+			<PersonNameInverted>Gregori, G.</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<NumberOfPages>29</NumberOfPages>
+		<PagesArabic>29</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>730</SubjectCode>
+			<SubjectHeadingText>ARTI PLASTICHE. SCULTURA</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Origami</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WFTM</SubjectCode>
+			<SubjectHeadingText>Origami e costruzioni con la carta</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>MA</SubjectCode>
+			<SubjectHeadingText>Manuali</SubjectHeadingText>
+		</Subject>
+		<OtherText>
+			<TextTypeCode>12</TextTypeCode>
+			<TextFormat>06</TextFormat>
+			<Text>Un pratico e coloratissimo kit contenente un libro con diagrammi e istruzioni dettagliate per realizzare 4 modelli di un famoso origamista e 200 fogli di carta per origami d&apos;alta qualit&#224; in 40 tonalit&#224; diverse.</Text>
+		</OtherText>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9782/889/350/9782889350513.1000.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9782/889/350/9782889350513p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>219346</NameCodeValue>
+			<ImprintName>Nuinui</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>219346</NameCodeValue>
+			<PublisherName>Nuinui</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2016</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Nuinui</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20160223</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>9,90</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5143894</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9783836565486</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9783836565486</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BA</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Hiroshige, the sixty-nine stations along the kisokaido. Ediz. italiana e spagnola</TitleText>
+		</Title>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Hiroshige</PersonName>
+			<PersonNameInverted>Hiroshige</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Andreas Marks</PersonName>
+			<PersonNameInverted>Marks, Andreas</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Rhiannon Paget</PersonName>
+			<PersonNameInverted>Paget, Rhiannon</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>mul</LanguageCode>
+		</Language>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>700</SubjectCode>
+			<SubjectHeadingText>ARTI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>AC</SubjectCode>
+			<SubjectHeadingText>STORIA DELL'ARTE: STILI ARTISTICI</SubjectHeadingText>
+		</Subject>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9783/836/565/9783836565486.500.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9783/836/565/9783836565486p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>208152</NameCodeValue>
+			<ImprintName>Taschen</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>208152</NameCodeValue>
+			<PublisherName>Taschen</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Taschen</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>99,99</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5282957</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9783836569415</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9783836569415</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BB</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Gustav Klimt. Tutti i dipinti</TitleText>
+		</Title>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Tobias G. Natter</PersonName>
+			<PersonNameInverted>Natter, Tobias G.</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<NumberOfPages>604</NumberOfPages>
+		<PagesArabic>604</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>750</SubjectCode>
+			<SubjectHeadingText>PITTURA</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Klimt, Gustav</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>ACVY</SubjectCode>
+			<SubjectHeadingText>Stili artistici: Art nouveau</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>AFC</SubjectCode>
+			<SubjectHeadingText>Pittura e tecniche della pittura</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>AGB</SubjectCode>
+			<SubjectHeadingText>Singoli artisti, monografie d'arte</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>_A</SubjectCode>
+			<SubjectHeadingText>Arte figurativa</SubjectHeadingText>
+		</Subject>
+		<OtherText>
+			<TextTypeCode>12</TextTypeCode>
+			<TextFormat>06</TextFormat>
+			<Text>A distanza di un secolo dalla sua scomparsa, l&apos;erotismo sfrontato, le superfici abbaglianti, e le sperimentazioni dell&apos;artista viennese Gustav Klimt (1862-1918) continuano a stupire. Questa monografia comprende le opere principali, corredate da un autorevole commento storico-artistico, e offre un accesso privilegiato al materiale d&apos;archivio dell&apos;artista. Grazie alle immagini ad alta definizione, tra cui le nuove fotografie che immortalano il celebre fregio di Palazzo Stoclet, il libro indaga il ruolo fondamentale che l&apos;artista ricopr&#236; nel movimento secessionista del 1897, i suoi candidi ritratti del corpo femminile, e lo splendido &quot;periodo dorato&quot;, durante il quale l&apos;impiego della foglia oro confer&#236; lucentezza e spessore a opere tanto amate, come Il bacio e Ritratto di Adele Bloch-Bauer I, noto anche come La donna in oro. Tramite luminose illustrazioni a doppia pagina e dettagli curati minuziosamente, il volume esplora il repertorio di influssi giapponesi, bizantini e allegorici che ispirarono le prospettive schiacciate dell&apos;artista, il suo linguaggio simbolico, e le trame a mosaico. Avvalendosi dei contributi di critici ed esperti contemporanei, il libro analizza inoltre l&apos;accoglienza contrastante riservata alle opere di Klimt nel mondo dell&apos;arte, nonch&#233; l&apos;evoluzione del suo stile. Dai dipinti paesaggistici alle opere erotiche, passando per i controversi quadri per il soffitto dell&apos;Aula Magna dell&apos;Universit&#224; di Vienna, scopriamo come la miscela di tradizione e innovazione di Klimt divise il pubblico e la stampa, dai quali venne additato come un pornografo e al contempo salutato come un grande maestro contemporaneo.</Text>
+		</OtherText>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9783/836/569/9783836569415.500.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9783/836/569/9783836569415p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>208152</NameCodeValue>
+			<ImprintName>Taschen</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>208152</NameCodeValue>
+			<PublisherName>Taschen</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Taschen</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20171130</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>49,99</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5235866</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9783836570596</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9783836570596</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BB</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>208152-BA</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Basic Art</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Barocco</TitleText>
+		</Title>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Andreas Pater</PersonName>
+			<PersonNameInverted>Pater, Andreas</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Hermann Bauer</PersonName>
+			<PersonNameInverted>Bauer, Hermann</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>B01</ContributorRole>
+			<PersonName>F. Walther</PersonName>
+			<PersonNameInverted>Walther, F.</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<NumberOfPages>96</NumberOfPages>
+		<PagesArabic>96</PagesArabic>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>700</SubjectCode>
+			<SubjectHeadingText>ARTI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Arte barocca</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>ACQB</SubjectCode>
+			<SubjectHeadingText>Stili artistici: Barocco</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>_A</SubjectCode>
+			<SubjectHeadingText>Arte figurativa</SubjectHeadingText>
+		</Subject>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9783/836/570/9783836570596.500.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9783/836/570/9783836570596p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>208152</NameCodeValue>
+			<ImprintName>Taschen</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>208152</NameCodeValue>
+			<PublisherName>Taschen</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Taschen</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>9,99</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5170076</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9783899442748</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9783899442748</IDValue>
+		</ProductIdentifier>
+		<ProductForm>CA</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Flexi Map Kunth Croazia costa</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTRM</SubjectCode>
+			<SubjectHeadingText>Carte geografiche</SubjectHeadingText>
+		</Subject>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>214775</NameCodeValue>
+			<ImprintName>Lozzi Editori</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>214775</NameCodeValue>
+			<PublisherName>Lozzi Editori</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Lozzi Editori</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>8,90</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5229513</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9783961710232</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9783961710232</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BB</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>The Harley-Davidson book. Ediz. inglese, tedesca e francese</TitleText>
+			<TitlePrefix>The</TitlePrefix>
+			<TitleWithoutPrefix>Harley-Davidson book. Ediz. inglese, tedesca e francese</TitleWithoutPrefix>
+		</Title>
+		<Contributor>
+			<ContributorRole>A12</ContributorRole>
+			<PersonName>M. Vezmar Basara</PersonName>
+			<PersonNameInverted>Vezmar Basara, M.</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>B01</ContributorRole>
+			<PersonName>M. Köckritz</PersonName>
+			<PersonNameInverted>Köckritz, M.</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<NumberOfPages>203</NumberOfPages>
+		<PagesArabic>203</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>620</SubjectCode>
+			<SubjectHeadingText>INGEGNERIA E ATTIVITA AFFINI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Fotografia-Temi</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Motociclette</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Harley Davidson (societ&#224;)</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WGCK</SubjectCode>
+			<SubjectHeadingText>Motocicli: argomenti d'interesse generale</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>AJC</SubjectCode>
+			<SubjectHeadingText>Fotografia: collezioni</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>_R</SubjectCode>
+			<SubjectHeadingText>Altra illustrata</SubjectHeadingText>
+		</Subject>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9783/961/710/9783961710232.1000.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9783/961/710/9783961710232p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>211365</NameCodeValue>
+			<ImprintName>TeNeues</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>211365</NameCodeValue>
+			<PublisherName>TeNeues</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>TeNeues</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20171021</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>49,90</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5196983</RecordReference>
+		<NotificationType>05</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9788856782752</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9788856782752</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BA</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>205807-AS</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Albatros. Gli speciali</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Incidente in sala operatoria</TitleText>
+		</Title>
+		<Contributor>
+			<ContributorRole>A01</ContributorRole>
+			<PersonName>Tammaro Carmelo D'Angelo</PersonName>
+			<PersonNameInverted>D'Angelo, Tammaro Carmelo</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>300</SubjectCode>
+			<SubjectHeadingText>SCIENZE SOCIALI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>JF</SubjectCode>
+			<SubjectHeadingText>SOCIETÀ E CULTURA: ARGOMENTI D'INTERESSE GENERALE</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>_V</SubjectCode>
+			<SubjectHeadingText>Altra non illustrata</SubjectHeadingText>
+		</Subject>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>205807</NameCodeValue>
+			<ImprintName>Gruppo Albatros Il Filo</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>205807</NameCodeValue>
+			<PublisherName>Gruppo Albatros Il Filo</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Gruppo Albatros Il Filo</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>14,90</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA1061829</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9788856802702</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9788856802702</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BA</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>I segni parlano. Prospettive di ricerca sulla Lingua dei Segni italiana</TitleText>
+			<TitlePrefix>I</TitlePrefix>
+			<TitleWithoutPrefix>segni parlano. Prospettive di ricerca sulla Lingua dei Segni italiana</TitleWithoutPrefix>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<NumberOfPages>224</NumberOfPages>
+		<PagesArabic>224</PagesArabic>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>410</SubjectCode>
+			<SubjectHeadingText>LINGUISTICA</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Comunicazione non verbale</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Sordit&#224;</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>CFD</SubjectCode>
+			<SubjectHeadingText>Psicolinguistica</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>CFZ</SubjectCode>
+			<SubjectHeadingText>Linguaggio dei segni, Braille e altri sistemi di comunicazione linguistica</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>_S</SubjectCode>
+			<SubjectHeadingText>Saggistica</SubjectHeadingText>
+		</Subject>
+		<OtherText>
+			<TextTypeCode>12</TextTypeCode>
+			<TextFormat>06</TextFormat>
+			<Text>La LIS (Lingua dei Segni Italiana) vuole dare voce, per questo parla a tutti per farsi visibile, per farsi conoscere da tutti. Rispetto ad alcuni anni fa la ricerca linguistica in tale ambito si &#232; ampliata ed ha perfezionato la propria metodologia d&apos;indagine, cos&#236; come &#232; aumentata la consapevolezza dell&apos;importanza di questa lingua che sempre pi&#249; persone - familiari, amici e colleghi di persone sorde, operatori, insegnanti, studenti - desiderano apprendere ed utilizzare, non solo per necessit&#224;, ma per esplorare nuove modalit&#224; comunicative. Questo volume, una raccolta di ricerche di linguistica e psicolinguistica condotte negli ultimi anni in Italia e presentate in occasione del 3&#176; Convegno Nazionale sulla Lingua dei Segni organizzato dall&apos;Ente Nazionale Sordi, ci racconta come da idioma &quot;che non ha esercito e non ha burocrazia&quot; (Lo Piparo, 2004), la Lingua dei Segni Italiana, attraverso il contributo cruciale della ricerca, si sia trasformata in lingua di minoranza e quindi in simbolo di identit&#224; e auto-determinazione.</Text>
+		</OtherText>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9788/856/802/9788856802702g.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9788/856/802/9788856802702p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>200015</NameCodeValue>
+			<ImprintName>Franco Angeli</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>200015</NameCodeValue>
+			<PublisherName>Franco Angeli</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2008</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Franco Angeli</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20090514</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>26,00</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5389443</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9788856905885</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9788856905885</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>210978-SC</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Storia e civilt&#224;</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>lE miscellanee del fondo Villarosa della Biblioteca Nazionale di Napoli</TitleText>
+			<TitlePrefix>lE</TitlePrefix>
+			<TitleWithoutPrefix>miscellanee del fondo Villarosa della Biblioteca Nazionale di Napoli</TitleWithoutPrefix>
+		</Title>
+		<Contributor>
+			<ContributorRole>B01</ContributorRole>
+			<PersonName>P. Russo</PersonName>
+			<PersonNameInverted>Russo, P.</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>B01</ContributorRole>
+			<PersonName>S. D'Amico</PersonName>
+			<PersonNameInverted>D'Amico, S.</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>B01</ContributorRole>
+			<PersonName>I. Rocco</PersonName>
+			<PersonNameInverted>Rocco, I.</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<NumberOfPages>104</NumberOfPages>
+		<PagesArabic>104</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<OtherText>
+			<TextTypeCode>12</TextTypeCode>
+			<TextFormat>06</TextFormat>
+			<Text>Ambiente, archeologia e arte, architettura, astronomia, epidemie, libero commercio, pubblico bene, riconquista del regno, scienze naturali, teatro di San Carlo, Vesuvio, vita di corte e volo aerostatico ...: 9.000 documenti preziosi e rari, raccolti per ambiti tematici, stampati a partire dal 1600 e raccolti in 715 volumi miscellanei, ricostruiscono il clima, le coordinate, i campi di forza di una capitale europea in pieno fermento, nel secolo dei lumi. Costituita per volere della famiglia de Rosa, che ha raccolto per generazioni opere letterarie antiche e contemporanee, la raccolta Villarosa, riunisce &quot;molte piccole cose, che nel di loro genere contengono sommo pregio, per la picciolezza delle di loro mole sarebbono facili a smarrirsi se sole si lasciassero a giacere nelle loro librerie...&quot;. (Carlantonio de Rosa marchese di Villarosa)</Text>
+		</OtherText>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9788/856/905/9788856905885.500.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9788/856/905/9788856905885p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>210978</NameCodeValue>
+			<ImprintName>Arte&apos;m</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>210978</NameCodeValue>
+			<PublisherName>Arte&apos;m</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Arte'm</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20171120</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>12,00</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+	<Product>
+		<RecordReference>www.ie-online.itA5389444</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9788856906080</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9788856906080</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>Le armi di Athena. Il santuario settentrionale di Paestum</TitleText>
+			<TitlePrefix>Le</TitlePrefix>
+			<TitleWithoutPrefix>armi di Athena. Il santuario settentrionale di Paestum</TitleWithoutPrefix>
+		</Title>
+		<Contributor>
+			<ContributorRole>B01</ContributorRole>
+			<PersonName>R. Graells i Fabregat</PersonName>
+			<PersonNameInverted>Graells i Fabregat, R.</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>B01</ContributorRole>
+			<PersonName>G. Zuchtriegel</PersonName>
+			<PersonNameInverted>Zuchtriegel, G.</PersonNameInverted>
+		</Contributor>
+		<Contributor>
+			<ContributorRole>B01</ContributorRole>
+			<PersonName>F. Longo</PersonName>
+			<PersonNameInverted>Longo, F.</PersonNameInverted>
+		</Contributor>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>ita</LanguageCode>
+		</Language>
+		<NumberOfPages>256</NumberOfPages>
+		<PagesArabic>256</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<OtherText>
+			<TextTypeCode>12</TextTypeCode>
+			<TextFormat>06</TextFormat>
+			<Text>Rinvenuto, a partire dal 2001, nei pressi del santuario settentrionale nel punto pi&#249; elevato della piattaforma calcarea di Paestum, un corredo riccho di manufatti - prevalentemente ceramiche e metalli - testimonia l&apos;importanza del culto dedicato ad Athena anche dopo il 500 a.C. le armi, offerte alla dea per celebrare vittorie militari o documentare la devozione di singoli cittadini e comunit&#224;, raccontano vicende originali e inedite della vita del santuario Athenaion tra il VI e il IV/III sec. a.C., restituendo nuovo spessore alla storia di un archetipo della civilt&#224; antica in occidente.</Text>
+		</OtherText>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9788/856/906/9788856906080.500.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9788/856/906/9788856906080p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>210978</NameCodeValue>
+			<ImprintName>Arte&apos;m</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>210978</NameCodeValue>
+			<PublisherName>Arte&apos;m</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2017</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Arte'm</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<OnSaleDate>20171125</OnSaleDate>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>25,00</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+</ONIXMessage>

@@ -4,6 +4,12 @@ module OnixBook
       include OnixBook::Methods::Ean
       include OnixBook::Methods::Isbn
       include OnixBook::Methods::ProprietaryId
+      include OnixBook::Extractor::ProductSupplies
+
+      # default LanguageCode from ONIXMessage
+      attr_accessor :default_language_of_text
+      # default code from ONIXMessage
+      attr_accessor :default_currency_code
 
       element "RecordReference", :text
       elements "ProductIdentifier", :sub_element
@@ -20,13 +26,6 @@ module OnixBook
       def identifiers
         @product_identifiers
       end
-
-      # default LanguageCode from ONIXMessage
-      attr_accessor :default_language_of_text
-      # default code from ONIXMessage
-      attr_accessor :default_currency_code
-
-      include OnixBook::Extractor::ProductSupplies
 
       # :category: High level
       # product title string
@@ -283,7 +282,7 @@ module OnixBook
       # raw book description string without HTML
       def raw_description
         if self.description
-          OnixBook::Tools::Global.strip_html(self.description).gsub(/\s+/," ").strip
+          OnixBook::Helpers::Converter.strip_html(self.description).gsub(/\s+/," ").strip
         else
           nil
         end
