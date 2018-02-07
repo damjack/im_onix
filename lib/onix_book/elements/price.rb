@@ -4,7 +4,7 @@ module OnixBook
       elements "PriceDate", :sub_element
       element "CurrencyCode", :text
       element "Territory", :sub_element
-      element "PriceType", :sub_element
+      element "PriceType", :yaml
       element "PriceQualifier", :sub_element
       element "PriceAmount", :float, {:lambda => lambda {|v| (v*100).round }}
       element "PriceStatus", :sub_element

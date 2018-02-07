@@ -57,7 +57,7 @@ module OnixBook
     end
 
     class SupplierIdentifier < Identifier
-      element "SupplierIDType", :sub_element
+      element "SupplierIDType", :yaml
       def type
         @supplier_id_type
       end

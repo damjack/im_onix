@@ -1,7 +1,7 @@
 module OnixBook
   module Elements
     class TitleElement < Base
-      element "TitleElementLevel", :sub_element
+      element "TitleElementLevel", :yaml
       element "TitleText", :text
       element "TitlePrefix", :text
       element "TitleWithoutPrefix", :text
@@ -86,10 +86,10 @@ module OnixBook
       include OnixBook::Methods::ProprietaryId
 
       elements "ProductIdentifier", :sub_element
-      element "ProductForm", :sub_element
+      element "ProductForm", :yaml
       element "ProductFormDescription", :text
-      elements "ProductFormDetail", :sub_element
-      elements "ProductContentType", :sub_element
+      elements "ProductFormDetail", :yaml
+      elements "ProductContentType", :yaml
       element "NumberOfCopies", :integer
 
       # shortcuts
@@ -273,7 +273,7 @@ module OnixBook
 
     class Language < Base
       element "LanguageRole", :yaml
-      element "LanguageCode", :sub_element
+      element "LanguageCode", :yaml
 
       # shortcuts
       def role
@@ -313,13 +313,13 @@ module OnixBook
       element "EditionType", :yaml
       elements "Language", :sub_element
       element "ProductComposition", :yaml
-      element "ProductForm", :sub_element
+      element "ProductForm", :yaml
       elements "ProductFormFeature", :sub_element
       element "ProductFormDescription", :text
-      elements "ProductFormDetail", :sub_element
-      element "PrimaryContentType", :sub_element, {:klass=>"ProductContentType"}
-      elements "ProductContentType", :sub_element
-      elements "EpubTechnicalProtection", :sub_element
+      elements "ProductFormDetail", :yaml
+      element "PrimaryContentType", :yaml, {:klass=>"ProductContentType"}
+      elements "ProductContentType", :yaml
+      elements "EpubTechnicalProtection", :yaml
       elements "EpubUsageConstraint", :sub_element
       elements "AudienceCode", :yaml
       elements "ProductPart", :sub_element

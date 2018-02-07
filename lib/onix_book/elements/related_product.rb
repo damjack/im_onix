@@ -6,8 +6,8 @@ module OnixBook
 
       element "ProductRelationCode", :yaml
       elements "ProductIdentifier", :sub_element
-      element "ProductForm", :sub_element
-      elements "ProductFormDetail", :sub_element
+      element "ProductForm", :yaml
+      elements "ProductFormDetail", :yaml
 
       # shortcuts
       def code

@@ -4,7 +4,8 @@ module OnixBook
       def ===(target)
         if target.element?
           name = target.name
-          name.casecmp(tag_name) == 0 or OnixBook::Data::Loader.short_names[name] == tag_name
+          loader = OnixBook::Data::Loader.new()
+          name.casecmp(tag_name) == 0 || loader.short_names(name) == tag_name
         else
           false
         end

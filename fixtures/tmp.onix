@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference">
+<Header>
+  <Sender>
+    <SenderName>Informazioni Editoriali I.E. s.r.l.</SenderName>
+  </Sender>
+  <Addressee>
+    <AddresseeName>test</AddresseeName>
+  </Addressee>
+  <SentDateTime>20180112T2325</SentDateTime>
+  <DefaultCurrencyCode>EUR</DefaultCurrencyCode>
+  </Header>
+  <Product>
+    <RecordReference>0-6272462</RecordReference>
+    <NotificationType>05</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9786059496209</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9786059496209</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>ED</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <PrimaryContentType>10</PrimaryContentType>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>American Indian Fairy Tales. [Illustrated Edition]</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Anonymous</PersonName>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>22</ExtentType>
+        <ExtentValue>6529</ExtentValue>
+        <ExtentUnit>18</ExtentUnit>
+      </Extent>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <SupportingResource>
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>01</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>03</ResourceVersionFeatureType>
+            <FeatureValue>80</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9786/059/496/9786059496209p.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="14">20171205T173647</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource>
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>01</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>03</ResourceVersionFeatureType>
+            <FeatureValue>200</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9786/059/496/9786059496209g.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="14">20171205T173647</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Cheapest Books</PublisherName>
+      </Publisher>
+      <PublishingStatus>08</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20171201</Date>
+      </PublishingDate>
+      <PublishingDate>
+        <PublishingDateRole>13</PublishingDateRole>
+        <Date dateformat="00">20991231</Date>
+      </PublishingDate>
+    </PublishingDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>06</SupplierRole>
+          <SupplierIdentifier>
+            <SupplierIDType>01</SupplierIDType>
+            <IDTypeName>Codice e-kitab distributore</IDTypeName>
+            <IDValue>600003</IDValue>
+          </SupplierIdentifier>
+        </Supplier>
+        <ProductAvailability>40</ProductAvailability>
+        <Price>
+          <PriceType>04</PriceType>
+          <PriceAmount>1.99</PriceAmount>
+          <Tax>
+            <TaxType>01</TaxType>
+            <TaxRateCode>R</TaxRateCode>
+            <TaxRatePercent>4.00</TaxRatePercent>
+          </Tax>
+          <Territory>
+            <CountriesIncluded>IT</CountriesIncluded>
+          </Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

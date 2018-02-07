@@ -1,7 +1,7 @@
 module OnixBook
   module Elements
     class ResourceVersionFeature < Base
-      element "ResourceVersionFeatureType", :sub_element
+      element "ResourceVersionFeatureType", :yaml
       elements "FeatureNote", :text
       element "FeatureValue", :text
 
@@ -27,7 +27,7 @@ module OnixBook
     end
 
     class ResourceVersion < Base
-      element "ResourceForm", :sub_element
+      element "ResourceForm", :yaml
       elements "ResourceLink", :text
       elements "ContentDate", :sub_element
       elements "ResourceVersionFeature", :sub_element
@@ -138,9 +138,9 @@ module OnixBook
     end
 
     class SupportingResource < Base
-      element "ResourceContentType", :sub_element
-      element "ContentAudience", :sub_element
-      element "ResourceMode", :sub_element
+      element "ResourceContentType", :yaml
+      element "ContentAudience", :yaml
+      element "ResourceMode", :yaml
       elements "ResourceVersion", :sub_element
       elements "ResourceFeature", :sub_element
 

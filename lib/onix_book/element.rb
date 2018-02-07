@@ -20,7 +20,7 @@ module OnixBook
     end
 
     def self.get_class(name)
-      OnixBook::Elements::Base.const_get(name)
+      OnixBook::Elements.const_get(name)
     end
 
     def unsupported(tag)

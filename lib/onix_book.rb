@@ -17,7 +17,7 @@ require 'onix_book/tag'
 require 'onix_book/element'
 require 'onix_book/elements/base'
 
-require 'onix_book/reader/parser'
+require 'onix_book/parser'
 
 require 'bigdecimal'
 require 'nokogiri'

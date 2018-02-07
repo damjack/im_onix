@@ -4,19 +4,19 @@ module OnixBook
       attr_accessor :date_format, :date
 
       def parse_date(n)
-        @date_format = DateFormat.from_code("00")
+        @date_format = OnixBook::Tag.from_code("DateFormat", "00")
         date_txt = nil
         @date = nil
         n.elements.each do |t|
           case t
-          when OnixBook::Helpers::Matcher.new("DateFormat")
-            @date_format = DateFormat.parse(t)
-          when OnixBook::Helpers::Matcher.new("Date")
-            date_txt = t.text
+            when OnixBook::Helpers::Matcher.new("DateFormat")
+              @date_format = OnixBook::Tag.parse("DateFormat", t)
+            when OnixBook::Helpers::Matcher.new("Date")
+              date_txt = t.text
           end
 
           if t["dateformat"]
-            @date_format = DateFormat.from_code(t["dateformat"])
+            @date_format = OnixBook::Tag.from_code("DateFormat", t["dateformat"])
           end
         end
 
@@ -24,8 +24,8 @@ module OnixBook
         text_format = format_from_string(date_txt)
         format = code_format
 
-        if code_format!=text_format
-          puts "EEE date #{n.text} (#{text_format}) do not match code #{@format.code} (#{code_format})"
+        if code_format != text_format
+          puts "EEE date #{n.text} (#{text_format}) do not match code (#{code_format})"
           format = text_format
         end
 
@@ -51,22 +51,22 @@ module OnixBook
 
       def format_from_code(code)
         case code
-        when "00"
-          "%Y%m%d"
-        when "01"
-          "%Y%m"
-        when "05"
-          "%Y"
-        when "14"
-          "%Y%m%dT%H%M%S%z"
-        else
-          nil
+          when "00"
+            "%Y%m%d"
+          when "01"
+            "%Y%m"
+          when "05"
+            "%Y"
+          when "14"
+            "%Y%m%dT%H%M%S%z"
+          else
+            nil
         end
       end
 
       def format_from_string(str)
         case str
-        when /^\d{4}\d{2}\d{2}T\d{2}\d{2}\d{2}/
+        when /^\d{4}\d{2}\d{2}T\d{2}\d{2}\d{2}/ || /^\d{4}\d{2}\d{2}T\d{2}\d{2}/
           "%Y%m%dT%H%M%S%z"
         when /^\d{4}\-\d{2}\-\d{2}$/
           "%Y-%m-%d"

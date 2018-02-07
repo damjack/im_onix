@@ -1,10 +1,11 @@
-## Pragmatic ONIX 3.0 & 2.1 parser for Ruby
+## ONIX 3.0 & 2.1 parser for Ruby
 
 ### Low level API
-Whole structure is accessible through ONIX::ONIXMessage object :
+Whole structure is accessible through OnixBook::Parser object :
 
 ```ruby
-parser = OnixBook::Parser.new("path_to_file.onix")
+parser = OnixBook::Parser.new()
+output = parser.run("path_to_file.onix")
 
 Ruby elements variables are underscored, lowercase of ONIX tags (Product -> product, DescriptiveDetail -> descriptive_detail) and pluralized in case of array (ProductSupply -> product_supplies).
 
@@ -13,8 +14,7 @@ High level methods give abstracted and simplified access to the most important d
 Usage :
 
 ```shell
-onix3_to_onix2.rb onix.xml
-onix3_to_onix3.rb onix.xml
+onix_split.rb onix.xml
 ```
 ### Development
 

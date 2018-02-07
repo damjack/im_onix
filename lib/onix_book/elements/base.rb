@@ -50,7 +50,7 @@ module OnixBook
           if e
             case e.type
               when :sub_element
-                val = self.class.get_class(e.class_name).parse(t)
+                val = self.class.get_class(e.class_name).new().parse(t)
               when :yaml
                 val = OnixBook::Tag.new(e.class_name, t)
               when :yaml_21
@@ -93,6 +93,7 @@ require 'onix_book/elements/date'
 require 'onix_book/elements/descriptive_detail'
 require 'onix_book/elements/discount_coded'
 require 'onix_book/elements/entity'
+require 'onix_book/elements/header'
 require 'onix_book/elements/identifier'
 require 'onix_book/elements/price'
 require 'onix_book/elements/product_supply'

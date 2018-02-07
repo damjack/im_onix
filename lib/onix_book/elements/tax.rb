@@ -4,8 +4,8 @@ module OnixBook
       element "TaxAmount", :float, {:lambda => lambda {|v| (v*100).round }}
       element "TaxableAmount", :float, {:lambda => lambda {|v| (v*100).round }}
       element "TaxRatePercent", :float
-      element "TaxRateCode", :sub_element
-      element "TaxType", :sub_element
+      element "TaxRateCode", :yaml
+      element "TaxType", :yaml
 
       # shortcuts
       def rate_code

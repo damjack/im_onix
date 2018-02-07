@@ -1,11 +1,19 @@
 require 'spec_helper'
 
 describe OnixBook::Data::Loader do
-  it 'get ref_names' do
-    expect(code_lists).not_to be nil
-  end
+  context 'init Loader' do
+    let(:loader) { OnixBook::Data::Loader.new }
 
-  it 'get hash' do
-    expect(code_lists21).not_to be nil
+    it 'get tags' do
+      expect(loader.tags).not_to be nil
+    end
+
+    it 'get shorts' do
+      expect(loader.shorts).not_to be nil
+    end
+
+    it 'get hash' do
+      expect(loader.hash(14)).not_to be nil
+    end
   end
 end

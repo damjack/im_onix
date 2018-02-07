@@ -20,7 +20,7 @@ module OnixBook
     end
 
     class SupplyDetail < Base
-      element "ProductAvailability", :sub_element
+      element "ProductAvailability", :yaml
       elements "Supplier", :sub_element
       elements "SupplyDate", :sub_element
       elements "Price", :sub_element

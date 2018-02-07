@@ -35,11 +35,11 @@ module OnixBook
               @name=t.text
             when OnixBook::Helpers::Matcher.new(self.class.role_tag)
               if self.class.role_class
-                @role=self.class.role_class.parse(t)
+                @role=self.class.role_class.new().parse(t)
               end
             when OnixBook::Helpers::Matcher.new(self.class.identifier_tag)
               if self.class.identifier_class
-                @identifiers << self.class.identifier_class.parse(t)
+                @identifiers << self.class.identifier_class.new().parse(t)
               end
           end
         end
@@ -90,6 +90,7 @@ module OnixBook
 
     class Supplier < Entity
       elements "Website", :sub_element
+      elements "SupplierRole", :yaml
 
       private
       def self.prefix
@@ -100,13 +101,14 @@ module OnixBook
         SupplierIdentifier
       end
 
-      def self.role_class
-        SupplierRole
-      end
+      # def self.role_class
+      #   SupplierRole
+      # end
     end
 
     class Publisher < Entity
       elements "Website", :sub_element
+      elements "PublishingRole", :yaml
 
       def initialize
         super
@@ -126,9 +128,9 @@ module OnixBook
         PublisherIdentifier
       end
 
-      def self.role_class
-        PublishingRole
-      end
+      # def self.role_class
+      #   PublishingRole
+      # end
     end
   end
 end

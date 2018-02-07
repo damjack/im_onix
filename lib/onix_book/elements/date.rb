@@ -80,7 +80,7 @@ module OnixBook
       include OnixBook::Helpers::ConvertDate
       element "Date", :ignore
       element "DateFormat", :ignore
-      element "PublishingDateRole", :sub_element
+      element "PublishingDateRole", :yaml
 
       def role
         @publishing_date_role
@@ -96,7 +96,7 @@ module OnixBook
       include OnixBook::Helpers::ConvertDate
       element "Date", :ignore
       element "DateFormat", :ignore
-      element "ContentDateRole", :sub_element
+      element "ContentDateRole", :yaml
 
       def role
         @content_date_role

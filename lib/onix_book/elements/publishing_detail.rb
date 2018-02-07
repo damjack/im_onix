@@ -1,7 +1,7 @@
 module OnixBook
   module Elements
     class PublishingDetail < Base
-      element "PublishingStatus", :sub_element
+      element "PublishingStatus", :yaml
       elements "SalesRights", :sub_element, {:pluralize=>false}
       element "SalesRestriction", :sub_element
       element "ROWSalesRightsType", :sub_element, {:klass=>"SalesRightsType"}

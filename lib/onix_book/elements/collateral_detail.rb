@@ -5,7 +5,7 @@ module OnixBook
       element "Text", :text
       element "SourceTitle", :text
       element "TextAuthor", :text
-      element "ContentAudience", :sub_element
+      element "ContentAudience", :yaml
 
       # shortcuts
       def type
