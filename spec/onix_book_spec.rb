@@ -15,12 +15,8 @@ describe OnixBook do
       end
     end
 
-    it "open file" do
-      expect(parser.open(path)).to be_an_existing_file
-    end
-
-    it "read file" do
-      expect(parser.run(path)).to be_a Nokogiri::XML::Document
-    end
+    # it "read file" do
+    #   expect(parser.analyze(path)).to be_a Hash
+    # end
   end
 end

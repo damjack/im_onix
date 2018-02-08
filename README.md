@@ -5,7 +5,9 @@ Whole structure is accessible through OnixBook::Parser object :
 
 ```ruby
 parser = OnixBook::Parser.new()
-output = parser.run("path_to_file.onix")
+parser.analyze("path_to_file.onix")
+```
+Now you can use variables `parser` to get all onix elements
 
 Ruby elements variables are underscored, lowercase of ONIX tags (Product -> product, DescriptiveDetail -> descriptive_detail) and pluralized in case of array (ProductSupply -> product_supplies).
 

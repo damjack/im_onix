@@ -1,8 +1,9 @@
 module OnixBook
   class Element
     # instanciate Subset form Nokogiri::XML::Element
-    def initialize(node)
+    def analyze(node)
       self.parse(node)
+      self
     end
 
     # parse Nokogiri::XML::Element

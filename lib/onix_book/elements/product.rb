@@ -10,6 +10,8 @@ module OnixBook
       attr_accessor :default_language_of_text
       # default code from ONIXMessage
       attr_accessor :default_currency_code
+      # default price type from ONIXMessage
+      attr_accessor :default_price_type_code
 
       element "RecordReference", :text
       elements "ProductIdentifier", :sub_element
@@ -547,8 +549,8 @@ module OnixBook
       def parse(n)
         super
         parts.each do |part|
-          part.part_of=self
-        end
+          part.part_of = self
+        end if parts
       end
 
     end

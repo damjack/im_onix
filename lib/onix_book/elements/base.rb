@@ -41,6 +41,8 @@ module OnixBook
             instance_variable_set(e.to_instance, [])
           end
         end
+
+        self
       end
 
       def parse(n)
@@ -50,13 +52,13 @@ module OnixBook
           if e
             case e.type
               when :sub_element
-                val = self.class.get_class(e.class_name).new().parse(t)
+                val = self.class.get_class(e.class_name).new().analyze(t)
               when :yaml
-                val = OnixBook::Tag.new(e.class_name, t)
+                val = OnixBook::Tag.new(e.class_name.to_s, t)
               when :yaml_21
-                val = OnixBook::Tag21.new(e.class_name, t)
+                val = OnixBook::Tag21.new(e.class_name.to_s, t)
               when :text
-                val = t.text
+                val = t.text.strip
               when :integer
                 val = t.text.to_i
               when :float
@@ -66,7 +68,7 @@ module OnixBook
               when :ignore
                 val = nil
               else
-                val = t.text
+                val = t.text.strip
             end
 
             if val

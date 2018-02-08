@@ -63,32 +63,32 @@ module OnixBook
     end
 
     # open with arg detection
-    def open(file)
+    def get(file)
       data = file_to_data(file)
       xml = Nokogiri::XML.parse(data)
       xml
     end
 
     # parse filename or file
-    def run(arg)
-      xml = open(arg)
+    def analyze(arg)
+      xml = get(arg)
       @products = []
 
       @release = xml.root["release"]
       xml.root.elements.each do |e|
         case e
           when OnixBook::Helpers::Matcher.new("Header")
-            @header = OnixBook::Elements::Header.new().parse(e)
+            @header = OnixBook::Elements::Header.new().analyze(e)
           when OnixBook::Helpers::Matcher.new("Product")
             product=nil
             if @release =~ /^3.0/
-              product = OnixBook::Elements::Product.new().parse(e)
+              product = OnixBook::Elements::Product.new().analyze(e)
             else
               product = Product21.new().parse(e)
             end
-            product.default_language_of_text = @default_language_of_text
-            product.default_price_type_code = @default_price_type_code
-            product.default_currency_code = @default_currency_code
+            product.default_language_of_text = @header.default_language_of_text
+            product.default_price_type_code = @header.default_price_type_code
+            product.default_currency_code = @header.default_currency_code
             @products << product
         end
       end
