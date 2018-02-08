@@ -8,16 +8,12 @@ module OnixBook
     # humanized string (eg: "Digital watermarking" become DigitalWatermarking,
     # "PDF" become Pdf, "BISAC Subject Heading" become BisacSubjectHeading, etc)
     attr_accessor :human
-    attr_accessor :hash
-    attr_accessor :list
 
-    def initialize(name, node)
+    def initialize(name, node = nil)
       loader = OnixBook::Data::Loader21.new
-      tag_id = loader.tag_names(name)
-      @hash = loader.hash(tag_id)
-      @list = @hash.to_a.map{|h| h.first}
+      @tag_id = loader.tag_names(name)
 
-      self.parse(node)
+      self.parse(node) if node
     end
 
     def mimetype
@@ -39,23 +35,41 @@ module OnixBook
 
     def parse(n)
       @code = n.text
-      @human = @hash[n.text]
+      @human = hash(n.text)
+    end
+
+    def list
+      loader = OnixBook::Data::Loader.new
+      hash = loader.hash(@tag_id)
+      hash.to_a.map{|h| h.first}
+    end
+
+    def hash(name)
+      loader = OnixBook::Data::Loader.new
+      hash = loader.hash(@tag_id)
+      hash[name]
+    end
+
+    def hash_key(name)
+      loader = OnixBook::Data::Loader.new
+      hash = loader.hash(@tag_id)
+      hash.key[name]
     end
 
     # create Code from string ONIX code
-    def self.from_code(code)
-      o = self.new
-      o.code = code
-      o.human = @hash[code]
-      o
+    def self.from_code(name, code)
+      tag = self.new(name)
+      tag.code = code
+      tag.human = tag.hash(code)
+      tag
     end
 
     # create Code from humanized string code
-    def self.from_human(human)
-      o = self.new
-      o.human = human
-      o.code = @hash.key(human)
-      o
+    def self.from_human(name, human)
+      tag = self.new(name)
+      tag.human = human
+      tag.code = tag.hash_key(human)
+      tag
     end
 
     # Humanized string code
@@ -69,7 +83,7 @@ module OnixBook
     end
 
     def unsupported(tag)
-     raise TagUnsupported, tag.name
+     raise Tag21Unsupported, tag.name
     end
   end
 end

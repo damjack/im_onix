@@ -1,22 +1,21 @@
-#!/usr/bin/ruby
-require 'im_onix'
+#!/usr/bin/env ruby
+require 'onix_book'
 
-filename=ARGV[0]
-cnt=ARGV[1] || 1000
-cnt=cnt.to_i
+filename = ARGV[0]
+cnt = ARGV[1] || 500
+cnt = cnt.to_i
 
-class OnixSplitter
-
+class OnixBookSplitter
   def initialize(filename, output_name)
-    @filename=filename
-    @output_name=output_name
+    @filename = filename
+    @output_name = output_name
   end
 
   def write_part(file_count, part)
-    out_filename=@output_name+"."+file_count.to_s+".xml"
+    out_filename = @output_name + "." + file_count.to_s + ".xml"
     puts "Write file #{out_filename}"
-    fw=File.open(out_filename, 'w')
-    fw.write("<ONIXMessage release=\"3.0\">\n")
+    fw = File.open(out_filename, 'w')
+    fw.write("<ONIXMessage release=\"3.0\" xmlns=\"http://ns.editeur.org/onix/3.0/reference\">\n")
     part.each do |p|
       fw.write p
     end
@@ -25,48 +24,46 @@ class OnixSplitter
   end
 
   def count
-    current_part_count=0
-    ONIX::Helper.each_xml_product(@filename) do |product_str|
-      current_part_count+=1
+    current_part_count = 0
+    OnixBook::Helper::Converter.each_xml_product(@filename) do |product_str|
+      current_part_count += 1
     end
     current_part_count
   end
 
   def split(max_parts)
-    file_count=0
-    current_part=[]
-    current_part_count=0
-    ONIX::Helper.each_xml_product(@filename) do |product_str|
-      tmp_msg=ONIX::ONIXMessage.new
-      tmp_msg.parse(product_str)
+    file_count = 0
+    current_part = []
+    current_part_count = 0
+    OnixBook::Helper::Converter.each_xml_product(@filename) do |product_str|
+      tmp_parser = OnixBook::Parser.new()
+      tmp_parser.analyze(product_str)
 
-      current_part[current_part_count] ||=""
+      current_part[current_part_count] ||= ""
       current_part[current_part_count] += product_str + "\n"
 
-      if tmp_msg.products.first.sold_separately?
-        current_part_count+=1
+      if tmp_parser.products.first.sold_separately?
+        current_part_count += 1
       end
 
-      if current_part_count > max_parts-1
+      if current_part_count > max_parts - 1
         write_part(file_count, current_part)
-        current_part=[]
-        current_part_count=0
-        file_count+=1
+        current_part = []
+        current_part_count = 0
+        file_count += 1
       end
     end
 
     if current_part_count > 0
       write_part(file_count, current_part)
-      current_part=[]
-      current_part_count=0
+      current_part = []
+      current_part_count = 0
     end
 
     true
   end
-
 end
 
-splitter=OnixSplitter.new(filename, "out/splitted")
+splitter = OnixBookSplitter.new(filename, "out/splitted")
 splitter.split(cnt)
 puts splitter.count
-

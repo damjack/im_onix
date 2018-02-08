@@ -1,8 +1,9 @@
 module OnixBook
   class Element21
     # instanciate Subset form Nokogiri::XML::Element
-    def initialize(node)
+    def analyze(node)
       self.parse(node)
+      self
     end
 
     # parse Nokogiri::XML::Element
@@ -20,10 +21,10 @@ module OnixBook
     end
 
     def self.get_class(name)
-      if OnixBook::Elements::Base21.const_defined?(name, false)
-        OnixBook::Elements::Base21.const_get(name)
+      if OnixBook::Elements21.const_defined?(name, false)
+        OnixBook::Elements21.const_get(name)
       else
-        OnixBook::Elements::Base.const_get(name)
+        OnixBook::Elements.const_get(name)
       end
     end
 

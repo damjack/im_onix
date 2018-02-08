@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 require 'open-uri'
 require 'nokogiri'
 require 'yaml'
@@ -25,8 +25,12 @@ class HTMLCodelist
   end
 end
 
-239.times do |i|
-  html = Nokogiri::HTML.parse(open("https://ns.editeur.org/onix/en/#{i+1}"))
+url = ARGV[0] || "https://ns.editeur.org/onix/en/"
+cnt = ARGV[1] || 139
+cnt = cnt.to_i
+
+cnt.times do |i|
+  html = Nokogiri::HTML.parse(open("#{url}#{i+1}"))
   flash = html.at_css('.flash')
   if(flash.nil?)
     HTMLCodelist.parse_codelist(html, i+1)

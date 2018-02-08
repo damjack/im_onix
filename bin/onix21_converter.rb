@@ -1,24 +1,19 @@
-require 'im_onix'
+#!/usr/bin/env ruby
+require 'onix_book'
 require 'nokogiri'
 
 filename=ARGV[0]
 
 if filename
-msg=ONIX::ONIXMessage.new
-msg.parse(filename)
+parser = OnixBook::Parser.new()
+parser.analyze(filename)
 
 builder = Nokogiri::XML::Builder.new(:encoding => "UTF-8") do |xml|
   xml.ONIXMessage(:release=>"3.0", :xmlns=>"http://ns.editeur.org/onix/3.0/reference") {
     xml.Header {
-      if msg.sender
+      if msg.header
         xml.Sender {
-          if msg.sender.gln
-            xml.SenderIdentifier {
-              xml.SenderIDType("06")
-              xml.IDValue(msg.sender.gln)
-            }
-          end
-          xml.SenderName(msg.sender.name)
+          xml.SenderName(msg.header.name)
         }
       end
       if msg.sent_date_time
@@ -27,7 +22,7 @@ builder = Nokogiri::XML::Builder.new(:encoding => "UTF-8") do |xml|
     }
     msg.products.each do |product|
       xml.Product {
-      xml.RecordReference(product.ean)
+      xml.RecordReference(product.record_reference)
       if product.delete?
         xml.NotificationType("05")
       else
@@ -394,7 +389,7 @@ end
 puts builder.to_xml
 
 else
-  puts "Onix 3.0 to Onix 3.0 converter"
+  puts "Onix 2.1 to Onix 3.0 converter"
   puts "Generate a flattened ONIX 3.0, be aware that conversion could be destructive"
-  puts "Usage: onix3_to_onix3.rb onix.xml"
+  puts "Usage: onix21_converter.rb onix.xml"
 end

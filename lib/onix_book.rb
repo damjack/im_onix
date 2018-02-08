@@ -17,6 +17,10 @@ require 'onix_book/tag'
 require 'onix_book/element'
 require 'onix_book/elements/base'
 
+require 'onix_book/tag_21'
+require 'onix_book/element_21'
+require 'onix_book/elements_21/base_21'
+
 require 'onix_book/parser'
 
 require 'bigdecimal'

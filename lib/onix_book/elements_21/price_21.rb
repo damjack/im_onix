@@ -1,6 +1,6 @@
 module OnixBook
   module Elements21
-    class Price < Base21
+    class Price21 < Base21
       element "PriceTypeCode", :sub_element, :klass => "PriceType"
       element "PriceAmount", :float, {:lambda => lambda { |v| (v*100).round }}
       element "PriceQualifier", :sub_element
