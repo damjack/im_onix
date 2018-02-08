@@ -19,12 +19,16 @@ Usage :
 onix_split.rb onix.xml
 ```
 ### Development
+Next features:
 
-#### Running the tests
+* **Parsing ONIX 2.1.**
+* implement test for check all system
+* covert ONIX 2.1 to ONIX 3.0
 
-Launch this command:
+### Running Tests
+We use [RSpec](http://rspec.info/) for testing. We have unit tests, functional tests and performance tests. To run tests use the following command:
 
-```
+```bash
 rspec
 ```
 
@@ -32,6 +36,7 @@ rspec
 TEA "The Ebook Alternative" : http://www.tea-ebook.com/
 Bookmate : https://bookmate.com/
 Immaterial : https://immateriel.fr/
+Damiano Giacomello: https://cantierecreativo.net
 
 ### License
 Copyright (C) 2018
