@@ -94,6 +94,8 @@ module OnixBook
       end
 
       init_vault
+
+      {header: @header, release: @release, products: @products}
     end
 
   end

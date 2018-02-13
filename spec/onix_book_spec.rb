@@ -15,8 +15,9 @@ describe OnixBook do
       end
     end
 
-    # it "read file" do
-    #   expect(parser.analyze(path)).to be_a Hash
-    # end
+    it "read file" do
+      debugger
+      expect(parser.analyze(path)).to be_a Hash
+    end
   end
 end

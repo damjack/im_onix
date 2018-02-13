@@ -130,8 +130,8 @@
       end
 
       class RelatedProduct < Base21
-        include EanMethods
-        include ProprietaryIdMethods
+        include OnixBook::Methods::Ean
+        include OnixBook::Methods::ProprietaryId
 
         element "RelationCode", :text
         elements "ProductIdentifier", :sub_element
@@ -367,7 +367,7 @@
           nil
         end
 
-        include OnixBook::Exractor::ProductSupplies
+        include OnixBook::Extractor::ProductSupplies
 
         def related
           @related_products
