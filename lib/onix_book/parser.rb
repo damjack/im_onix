@@ -84,11 +84,11 @@ module OnixBook
             if @release =~ /^3.0/
               product = OnixBook::Elements::Product.new().analyze(e)
             else
-              product = Product21.new().parse(e)
+              product = OnixBook::Elements21::Product.new().analyze(e)
             end
-            product.default_language_of_text = @header.default_language_of_text
-            product.default_price_type_code = @header.default_price_type_code
-            product.default_currency_code = @header.default_currency_code
+            # product.default_language_of_text = @header.default_language_of_text if @header.default_language_of_text
+            # product.default_price_type_code = @header.default_price_type_code if @header.default_price_type_code
+            # product.default_currency_code = @header.default_currency_code if @header.default_currency_code
             @products << product
         end
       end

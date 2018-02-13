@@ -7,7 +7,7 @@ module OnixBook
       element "PriceType", :yaml
       element "PriceQualifier", :sub_element
       element "PriceAmount", :float, {:lambda => lambda {|v| (v*100).round }}
-      element "PriceStatus", :sub_element
+      element "PriceStatus", :yaml
       element "Tax", :sub_element
       element "DiscountCoded", :sub_element
 

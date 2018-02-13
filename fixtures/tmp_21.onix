@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage>
+	<Header>
+		<FromCompany>Informazioni Editoriali I.E. s.p.a.</FromCompany>
+		<ToCompany>Bookrepublic</ToCompany>
+		<SentDate>201712010309</SentDate>
+		<DefaultPriceTypeCode>04</DefaultPriceTypeCode>
+		<DefaultCurrencyCode>EUR</DefaultCurrencyCode>
+	</Header>
+	<Product>
+		<RecordReference>www.ie-online.itA272901</RecordReference>
+		<NotificationType>04</NotificationType>
+		<RecordSourceName>Informazioni Editoriali I.E. s.p.a.</RecordSourceName>
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType>
+			<IDValue>9780714846873</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9780714846873</IDValue>
+		</ProductIdentifier>
+		<ProductForm>BC</ProductForm>
+		<Series>
+			<SeriesIdentifier>
+				<SeriesIDType>01</SeriesIDType>
+				<IDValue>206138-WCG</IDValue>
+			</SeriesIdentifier>
+			<TitleOfSeries>Wallpaper. City Guide</TitleOfSeries>
+		</Series>
+		<Title>
+			<TitleType>01</TitleType>
+			<TitleText>London</TitleText>
+		</Title>
+		<Language>
+			<LanguageRole>01</LanguageRole>
+			<LanguageCode>eng</LanguageCode>
+		</Language>
+		<NumberOfPages>103</NumberOfPages>
+		<PagesArabic>103</PagesArabic>
+		<Illustrations>
+			<IllustrationType>09</IllustrationType>
+		</Illustrations>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice classification</SubjectSchemeName>
+			<SubjectCode>910</SubjectCode>
+			<SubjectHeadingText>GEOGRAFIA GENERALE. VIAGGI</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Alice subject headings</SubjectSchemeName>
+			<SubjectHeadingText>Londra-Guide</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>53</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>WTH</SubjectCode>
+			<SubjectHeadingText>Guide ai viaggi e alle vacanze</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>54</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>2</SubjectSchemeVersion>
+			<SubjectCode>1DBKESL</SubjectCode>
+			<SubjectHeadingText>Londra, grande Londra</SubjectHeadingText>
+		</Subject>
+		<Subject>
+			<SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+			<SubjectSchemeName>Department</SubjectSchemeName>
+			<SubjectCode>G2</SubjectCode>
+			<SubjectHeadingText>Guide turistiche-Europa</SubjectHeadingText>
+		</Subject>
+		<MediaFile>
+			<MediaFileTypeCode>04</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/846/9780714846873g.jpg</MediaFileLink>
+		</MediaFile>
+		<MediaFile>
+			<MediaFileTypeCode>07</MediaFileTypeCode>
+			<MediaFileFormatCode>03</MediaFileFormatCode>
+			<MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+			<MediaFileLink>http://www.ibuk.it/irj/go/km/docs/arwimages/9780/714/846/9780714846873p.jpg</MediaFileLink>
+		</MediaFile>
+		<Imprint>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<ImprintName>Phaidon</ImprintName>
+		</Imprint>
+		<Publisher>
+			<PublishingRole>01</PublishingRole>
+			<NameCodeType>02</NameCodeType>
+			<NameCodeTypeName>I.E. Code</NameCodeTypeName>
+			<NameCodeValue>206138</NameCodeValue>
+			<PublisherName>Phaidon</PublisherName>
+		</Publisher>
+		<PublishingStatus>04</PublishingStatus>
+		<PublicationDate>2006</PublicationDate>
+		<SupplyDetail>
+			<SupplierName>Phaidon</SupplierName>
+			<ProductAvailability>20</ProductAvailability>
+			<Price>
+				<PriceTypeCode>04</PriceTypeCode>
+				<PriceStatus>02</PriceStatus>
+				<PriceAmount>8,95</PriceAmount>
+				<TaxRateCode1>P</TaxRateCode1>
+			</Price>
+		</SupplyDetail>
+	</Product>
+</ONIXMessage>

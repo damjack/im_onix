@@ -39,19 +39,19 @@ module OnixBook
     end
 
     def list
-      loader = OnixBook::Data::Loader.new
+      loader = OnixBook::Data::Loader21.new
       hash = loader.hash(@tag_id)
       hash.to_a.map{|h| h.first}
     end
 
     def hash(name)
-      loader = OnixBook::Data::Loader.new
+      loader = OnixBook::Data::Loader21.new
       hash = loader.hash(@tag_id)
       hash[name]
     end
 
     def hash_key(name)
-      loader = OnixBook::Data::Loader.new
+      loader = OnixBook::Data::Loader21.new
       hash = loader.hash(@tag_id)
       hash.key[name]
     end

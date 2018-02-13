@@ -1,6 +1,7 @@
 require 'onix_book/version'
 
 require 'onix_book/data/loader'
+require 'onix_book/data/loader_21'
 
 require 'onix_book/helpers/matcher'
 require 'onix_book/helpers/element_parser'

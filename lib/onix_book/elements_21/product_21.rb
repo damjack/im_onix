@@ -2,7 +2,7 @@
     module Elements21
       # ONIX 2.1 elements
       class Title < Base21
-        element "TitleType", :sub_element
+        element "TitleType", :yaml_21
         element "TitleText", :text
         element "TitlePrefix", :text
         element "TitleWithoutPrefix", :text
@@ -183,7 +183,7 @@
 
         element "RecordReference", :text
         elements "ProductIdentifier", :sub_element
-        element "NotificationType", :sub_element
+        element "NotificationType", :yaml_21
         element "RecordSourceName", :text
         elements "Title", :sub_element
         elements "ProductSupply", :sub_element
@@ -236,6 +236,8 @@
         attr_accessor :default_language_of_text
         # default code from ONIXMessage
         attr_accessor :default_currency_code
+        # default price type from ONIXMessage
+        attr_accessor :default_price_type_code
 
         def title
           product_title.title

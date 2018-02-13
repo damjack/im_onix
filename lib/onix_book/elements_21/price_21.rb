@@ -1,12 +1,13 @@
 module OnixBook
   module Elements21
-    class Price21 < Base21
-      element "PriceTypeCode", :sub_element, :klass => "PriceType"
+    class Price < Base21
+      element "PriceTypeCode", :yaml_21, :klass => "PriceType"
       element "PriceAmount", :float, {:lambda => lambda { |v| (v*100).round }}
       element "PriceQualifier", :sub_element
       element "DiscountCoded", :sub_element
       element "CurrencyCode", :text
       elements "CountryCode", :text
+      element "PriceStatus", :yaml_21
       element "PriceEffectiveFrom", :text
       element "PriceEffectiveUntil", :text
 
