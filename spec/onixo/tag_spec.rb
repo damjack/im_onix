@@ -1,5 +1,5 @@
 require 'spec_helper'
 
-describe OnixBook::Tag do
+describe Onixo::Tag do
   
 end

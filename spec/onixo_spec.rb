@@ -1,12 +1,12 @@
 require 'spec_helper'
 
-describe OnixBook do
+describe Onixo do
   it 'has a version number' do
-    expect(OnixBook::VERSION).not_to be nil
+    expect(Onixo::VERSION).not_to be nil
   end
 
   context "parse ONIX 3.0 file" do
-    let(:parser) { OnixBook::Parser.new }
+    let(:parser) { Onixo::Parser.new }
     let(:path) { "fixtures/tmp.onix" }
 
     it "check file is File type" do
@@ -21,7 +21,7 @@ describe OnixBook do
   end
 
   context "parse ONIX 2.1 file" do
-    let(:parser) { OnixBook::Parser.new }
+    let(:parser) { Onixo::Parser.new }
     let(:path) { "fixtures/tmp_21.onix" }
 
     it "check file is File type" do

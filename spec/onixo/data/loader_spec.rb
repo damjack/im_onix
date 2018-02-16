@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe OnixBook::Data::Loader do
+describe Onixo::Data::Loader do
   context 'init Loader' do
-    let(:loader) { OnixBook::Data::Loader.new }
+    let(:loader) { Onixo::Data::Loader.new }
 
     it 'get tags' do
       expect(loader.tags).not_to be nil

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe OnixBook::Elements::Header do
+describe Onixo::Elements::Product do
   context "check" do
     
   end
