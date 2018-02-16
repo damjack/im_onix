@@ -1,10 +1,10 @@
 ## ONIX 3.0 & 2.1 parser for Ruby
 
 ### Low level API
-Whole structure is accessible through OnixBook::Parser object :
+Whole structure is accessible through Onixo::Parser object :
 
 ```ruby
-parser = OnixBook::Parser.new()
+parser = Onixo::Parser.new()
 parser.analyze("path_to_file.onix")
 ```
 Now you can use variables `parser` to get all onix elements
