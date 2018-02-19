@@ -11,7 +11,7 @@ module Onixo
           output = tmp_parser.analyze(prod)
 
           parts[parts_cnt] ||= ""
-          parts[parts_cnt] + = prod + "\n"
+          parts[parts_cnt] += prod + "\n"
 
           if output[:products].first.sold_separately?
             parts_cnt += 1

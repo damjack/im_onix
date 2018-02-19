@@ -262,6 +262,10 @@
           cats
         end
 
+        def cce_categories_codes
+          (@main_subjects + @subjects).select { |s| s.scheme_identifier.human=="SoggettoCce" }.map{|s| s.code}
+        end
+
         def clil_categories_codes
           (@main_subjects + @subjects).select { |s| s.scheme_identifier.human=="Clil" }.map{|s| s.code}
         end

@@ -167,6 +167,12 @@ builder = Nokogiri::XML::Builder.new(:encoding => "UTF-8") do |xml|
             xml.SubjectCode(s)
           }
         end
+        product.cce_categories_codes.each do |s|
+          xml.Subject {
+            xml.SubjectSchemeIdentifier("53")
+            xml.SubjectCode(s)
+          }
+        end
 
         if product.keywords.length > 0
           xml.Subject {

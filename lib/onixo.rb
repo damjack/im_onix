@@ -23,6 +23,8 @@ require 'onixo/element_21'
 require 'onixo/elements_21/base_21'
 
 require 'onixo/parser'
+require 'onixo/rake_helper'
+require 'onixo/railtie' if defined?(::Rails::Railtie)
 
 require 'bigdecimal'
 require 'nokogiri'

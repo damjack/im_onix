@@ -147,6 +147,17 @@ module Onixo
         self.bisac_categories.map{|c| c.code}.uniq
       end
 
+      # CCE categories Subject
+      def cce_categories
+        @descriptive_detail.cce_categories
+      end
+
+      # :category: High level
+      # CCE categories identifiers string array (eg: FIC000000)
+      def cce_categories_codes
+        self.cce_categories.map{|c| c.code}.uniq
+      end
+
       # CLIL categories Subject
       def clil_categories
         @descriptive_detail.clil_categories
