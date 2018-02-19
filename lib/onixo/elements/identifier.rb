@@ -85,7 +85,7 @@ module Onixo
     end
 
     class SalesOutletIdentifier < Identifier
-      element "SalesOutletIDType", :sub_element
+      element "SalesOutletIDType", :yaml
       def type
         @sales_outlet_id_type
       end

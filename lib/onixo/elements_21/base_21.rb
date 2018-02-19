@@ -31,7 +31,11 @@ module Onixo
       end
 
       def self.registered_elements
-        @elements || {}
+        if(self.instance_variable_defined?(:@elements))
+          @elements || {}
+        else
+          @elements = {}
+        end
       end
 
       def initialize
