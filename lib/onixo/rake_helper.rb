@@ -1,7 +1,7 @@
 module Onixo
   module RakeHelper
     class << self
-      def split(file: nil, row: 500, output: "out/")
+      def truncate_to_multiple(file: nil, row: 500, output: "out/")
         origin_cnt = 0
         parts = []
         parts_cnt = 0

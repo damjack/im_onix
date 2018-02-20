@@ -5,9 +5,9 @@ Whole structure is accessible through Onixo::Parser object :
 
 ```ruby
 parser = Onixo::Parser.new()
-parser.analyze("path_to_file.onix")
+analyzed = parser.analyze("path_to_file.onix")
 ```
-Now you can use variables `parser` to get all onix elements
+Now you can use variables `analyzed` to get all onix elements
 
 Ruby elements variables are underscored, lowercase of ONIX tags (Product -> product, DescriptiveDetail -> descriptive_detail) and pluralized in case of array (ProductSupply -> product_supplies).
 
@@ -16,14 +16,13 @@ High level methods give abstracted and simplified access to the most important d
 Usage :
 
 ```shell
-onix_split.rb onix.xml
+split.rb onix.xml
 ```
 ### Development
 Next features:
 
-* **Parsing ONIX 2.1.**
 * implement test for check all system
-* covert ONIX 2.1 to ONIX 3.0
+* convert response to standard object
 
 ### Running Tests
 We use [RSpec](http://rspec.info/) for testing. We have unit tests, functional tests and performance tests. To run tests use the following command:
