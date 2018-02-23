@@ -19,6 +19,18 @@ module Onixo
         data
       end
 
+      def self.xml_header(arg)
+        data = File.read(arg)
+        output = ""
+        Nokogiri::XML::Reader(data).each do |node|
+          if node.name == 'Header' and node.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT
+            output = node.outer_xml
+          end
+        end
+
+        output
+      end
+
       # traverse each product as xml string
       def self.each_xml_product(arg,  &block)
         data = File.read(arg)
