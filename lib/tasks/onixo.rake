@@ -1,8 +1,9 @@
+require 'rake'
 require 'onixo/rake_helper'
 
 namespace :onixo do
-  desc 'Destroys, recreates and imports data for the specified indexes or all of them'
-  task :split, [:file, :row, :output] do |_task, args|
+  desc 'Split ONIX file into separate files'
+  task :split, [:file, :row, :output] => :environment do |_task, args|
     Onixo::RakeHelper.truncate_to_multiple(args)
   end
 

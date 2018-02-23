@@ -24,7 +24,7 @@ module Onixo
       elements "Supplier", :sub_element
       elements "SupplyDate", :sub_element
       elements "Price", :sub_element
-      element "UnpricedItemType", :sub_element
+      element "UnpricedItemType", :yaml
 
       def availability
         @product_availability
