@@ -54,6 +54,9 @@ module Onixo
           name = t.name
           e = self.class.ancestors_registered_elements[name]
           if e
+            # puts "###########################"
+            # puts e.class_name.to_s
+            # puts "###########################"
             case e.type
               when :sub_element
                 val = self.class.get_class(e.class_name).new().analyze(t)

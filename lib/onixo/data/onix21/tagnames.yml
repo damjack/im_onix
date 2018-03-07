@@ -23,6 +23,7 @@ AudienceCode: 28
 AudienceCodeValue: 28
 AudienceCodeType: 29
 AudienceRangeQualifier: 30
+TextTypeCode: 33
 MediaFileTypeCode: 38
 MediaFileFormatCode: 39
 MediaFileLinkTypeCode: 40

@@ -86,13 +86,15 @@
       end
 
       class SupplyDetail < Base21
+        # TODO
+        # convert OnSaleDate to Date.strptime()
         element "SupplierName", :text
         element "TelephoneNumber", :text
         element "SupplierRole", :text
 
         element "AvailabilityCode", :text
         element "ProductAvailability", :text
-        element "OnSaleDate", :text, {:lambda => lambda { |v| Date.strptime(v, "%Y%m%d") }}
+        element "OnSaleDate", :text, {:lambda => lambda { |v| v }}
         elements "Price", :sub_element
 
         def availability_date

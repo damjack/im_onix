@@ -83,6 +83,10 @@ module Onixo
       def time
         @date.to_time
       end
+
+      def self.strptime_date(str)
+        Date.strptime(str, "%Y%m%d")
+      end
     end
   end
 end
