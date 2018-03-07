@@ -97,7 +97,11 @@ module Onixo
           end
         when Onixo::Helpers::Matcher.new("Product")
           product = nil
-          product = Onixo::Elements::Product.new().analyze(root_node)
+          if @release =~ /^3.0/
+            product = Onixo::Elements::Product.new().analyze(root_node)
+          else
+            product = Onixo::Elements21::Product.new().analyze(root_node)
+          end
           @products << product
       end
 
