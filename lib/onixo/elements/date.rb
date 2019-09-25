@@ -34,6 +34,8 @@ module Onixo
       element "DateFormat", :ignore
       element "MarketDateRole", :sub_element
 
+      scope :availability, lambda { human_code_match(:market_date_role, ["PublicationDate","EmbargoDate"])}
+
       def role
         @market_date_role
       end
@@ -49,6 +51,9 @@ module Onixo
       element "Date", :ignore
       element "DateFormat", :ignore
       element "PriceDateRole", :sub_element
+
+      scope :from, lambda { human_code_match(:price_date_role, "FromDate")}
+      scope :until, lambda { human_code_match(:price_date_role, "UntilDate")}
 
       def role
         @price_date_role
@@ -66,6 +71,8 @@ module Onixo
       element "DateFormat", :ignore
       element "SupplyDateRole", :sub_element
 
+      scope :availability, lambda { human_code_match(:supply_date_role, ["ExpectedAvailabilityDate","EmbargoDate"])}
+
       def role
         @supply_date_role
       end
@@ -82,6 +89,10 @@ module Onixo
       element "DateFormat", :ignore
       element "PublishingDateRole", :yaml
 
+      scope :publication, lambda { human_code_match(:publishing_date_role, ["PublicationDate","PublicationDateOfPrintCounterpart"])}
+      scope :embargo, lambda { human_code_match(:publishing_date_role, "EmbargoDate")}
+      scope :public_announcement, lambda { human_code_match(:publishing_date_role, "PublicAnnouncementDate")}
+
       def role
         @publishing_date_role
       end
@@ -97,6 +108,8 @@ module Onixo
       element "Date", :ignore
       element "DateFormat", :ignore
       element "ContentDateRole", :yaml
+
+      scope :last_updated, lambda { human_code_match(:content_date_role, "LastUpdated")}
 
       def role
         @content_date_role

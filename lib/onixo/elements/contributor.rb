@@ -1,6 +1,7 @@
 module Onixo
   module Elements
     class Contributor < Base
+      element "SequenceNumber", :integer
       element "NamesBeforeKey", :text
       element "KeyNames", :text
       element "PersonName", :text
@@ -8,7 +9,6 @@ module Onixo
       element "ContributorRole", :yaml
       element "ContributorPlace", :sub_element
       element "BiographicalNote", :text
-      element "SequenceNumber", :integer
       elements "Website", :sub_element
       elements "NameIdentifier", :sub_element
 

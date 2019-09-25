@@ -1,7 +1,7 @@
 module Onixo
   module RakeHelper
     class << self
-      def truncate_to_multiple(file: nil, row: 500, output: "out/")
+      def truncate_to_multiple(file: nil, row: 500, output: "out/", release: "3.0")
         origin_cnt = 0
         parts = []
         parts_cnt = 0
@@ -19,7 +19,7 @@ module Onixo
           end
 
           if parts_cnt > row - 1
-            write_part(origin_cnt, header_xml, parts, output)
+            write_part(origin_cnt, header_xml, parts, output, release)
             parts = []
             parts_cnt = 0
             origin_cnt += 1
@@ -27,7 +27,7 @@ module Onixo
         end
 
         if parts_cnt > 0
-          write_part(origin_cnt, header_xml, parts, output)
+          write_part(origin_cnt, header_xml, parts, output, release)
           parts = []
           parts_cnt = 0
         end
@@ -35,10 +35,10 @@ module Onixo
         true
       end
 
-      def write_part(origin_cnt, header_xml, parts, output)
+      def write_part(origin_cnt, header_xml, parts, output, release)
         out_filename = output + "-" + origin_cnt.to_s + ".onix"
         fw = File.open(out_filename, 'w')
-        fw.write("<ONIXMessage release=\"3.0\" xmlns=\"http://ns.editeur.org/onix/3.0/reference\">\n")
+        fw.write("<ONIXMessage release=\"#{release}\" xmlns=\"http://ns.editeur.org/onix/3.0/reference\">\n")
         fw.write(header_xml)
         parts.each do |p|
           fw.write p

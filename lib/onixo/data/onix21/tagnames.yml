@@ -4,7 +4,7 @@ ProductComposition: 2
 RecordSourceType: 3
 ProductIDType: 5
 Barcode: 6
-ProductForm: 7
+# ProductForm: 7
 ProductClassificationType: 9
 EpubType: 10
 CollectionIDType: 13
@@ -61,7 +61,7 @@ FromLanguage: 74
 ToLanguage: 74
 AudienceCodeValue: 74
 DefaultLanguageOfText: 74
-ProductFormFeatureValue: 76
+# ProductFormFeatureValue: 76
 ProductFormFeatureType: 79
 ProductPackaging: 80
 CountryCode: 91
@@ -73,7 +73,7 @@ SupplierIDType: 92
 SupplierRole: 93
 CurrencyCode: 96
 DefaultCurrencyCode: 96
-ProductFormFeatureValue: 99
+# ProductFormFeatureValue: 99
 ScriptCode: 121
 IDValue: 139
 BarcodeType: 141
@@ -104,7 +104,7 @@ PriceConditionQuantityType: 168
 QuantityUnit: 169
 TaxType: 171
 PriceDateRole: 173
-ProductFormFeatureValue: 176
+# ProductFormFeatureValue: 176
 AudienceCodeValue: 203
 ReturnsCode: 204
 PriceIDType: 217
